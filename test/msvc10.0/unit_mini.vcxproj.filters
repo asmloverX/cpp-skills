@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="unit_mini">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\unit_mini\unit_color.cc">
+      <Filter>unit_mini</Filter>
+    </ClCompile>
+    <ClCompile Include="..\unit_mini\unit_main.cc">
+      <Filter>unit_mini</Filter>
+    </ClCompile>
+    <ClCompile Include="..\unit_mini\unit_mini.cc">
+      <Filter>unit_mini</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\unit_mini\unit_color.h">
+      <Filter>unit_mini</Filter>
+    </ClInclude>
+    <ClInclude Include="..\unit_mini\unit_mini.h">
+      <Filter>unit_mini</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

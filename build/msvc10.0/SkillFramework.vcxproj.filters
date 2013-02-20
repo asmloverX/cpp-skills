@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SkillFramework">
+      <UniqueIdentifier>{25bd77ee-4111-400d-830e-00caca92d288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillFramework\inc">
+      <UniqueIdentifier>{97fb182a-a8c8-4451-8ca1-6cee0ce38f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillFramework\inc\win32">
+      <UniqueIdentifier>{0eb53b69-1d38-42d4-a487-121fa4d037d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillFramework\src">
+      <UniqueIdentifier>{f275e96c-fdb4-4925-940e-8d360daf6c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillFramework\src\win32">
+      <UniqueIdentifier>{4f22e6df-0c54-4f92-b1b0-a3894f10176b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillFramework\example">
+      <UniqueIdentifier>{f02fa578-08cf-4d25-8996-3925c36adc8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillFramework\example\example_mini">
+      <UniqueIdentifier>{bd5c5dfe-679a-4607-bcb3-dd7b8800be07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\SkillFramework\stdafx.cc">
+      <Filter>SkillFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\src\log.c">
+      <Filter>SkillFramework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\src\path_tools.cc">
+      <Filter>SkillFramework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\src\philosophereat.cc">
+      <Filter>SkillFramework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\src\str2bin.cc">
+      <Filter>SkillFramework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\src\syntax.cc">
+      <Filter>SkillFramework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\src\threadbase.cc">
+      <Filter>SkillFramework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\src\win32\win32_mutex.cc">
+      <Filter>SkillFramework\src\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\example\example_log.cc">
+      <Filter>SkillFramework\example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\example\example_pathtools.cc">
+      <Filter>SkillFramework\example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\example\example_philosophereat.cc">
+      <Filter>SkillFramework\example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\example\example_smartptr.cc">
+      <Filter>SkillFramework\example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\example\example_staticcheck.cc">
+      <Filter>SkillFramework\example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\example\example_str2bin.cc">
+      <Filter>SkillFramework\example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\example\example_winbase.cc">
+      <Filter>SkillFramework\example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\example\example_winthunk.cc">
+      <Filter>SkillFramework\example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\example\example_mini\example_main.cc">
+      <Filter>SkillFramework\example\example_mini</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SkillFramework\example\example_mini\example_mini.cc">
+      <Filter>SkillFramework\example\example_mini</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SkillFramework\stdafx.h">
+      <Filter>SkillFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\log.h">
+      <Filter>SkillFramework\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\noncopyable.h">
+      <Filter>SkillFramework\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\path_tools.h">
+      <Filter>SkillFramework\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\philosophereat.h">
+      <Filter>SkillFramework\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\scoped_lock.h">
+      <Filter>SkillFramework\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\smart_ptr.h">
+      <Filter>SkillFramework\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\static_check.h">
+      <Filter>SkillFramework\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\str2bin.h">
+      <Filter>SkillFramework\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\syntax.h">
+      <Filter>SkillFramework\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\threadbase.h">
+      <Filter>SkillFramework\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\winbase.h">
+      <Filter>SkillFramework\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\winthunk.h">
+      <Filter>SkillFramework\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\inc\win32\win32_mutex.h">
+      <Filter>SkillFramework\inc\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SkillFramework\example\example_mini\example_mini.h">
+      <Filter>SkillFramework\example\example_mini</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
